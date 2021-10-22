@@ -1,0 +1,85 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  width: 100%;
+  height: 5rem;
+  background-color: #e82231;
+}
+.nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 50%;
+}
+.nav_items img {
+  height: 100%;
+}
+
+.nav_location {
+  display: flex;
+
+  height: 100%;
+  width: 70%;
+  border-radius: 30px;
+}
+#location_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 100%;
+  background-color: #fff;
+  border-right: 0.5px solid #aaaaaa;
+  border-radius: 30px 0px 0px 30px;
+}
+.outlined{
+  color: #495057;
+}
+
+#location_name{
+  color: #495057;
+  font-size: 16px;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+#start_date {
+  height: 100%;
+  width: 30%;
+  background-color: #fff;
+  border-right: 0.5px solid #aaaaaa;
+}
+#end_date {
+  height: 100%;
+  width: 30%;
+  background-color: #fff;
+}
+#rent_now {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+  background-color: #383838;
+  color: #fff;
+  border-radius: 0px 30px 30px 0px;
+   font-family: 'Source Sans Pro', sans-serif;
+  cursor: pointer;
+}
+#rent_now:hover{
+  background-color: #000000;
+}
+.login_details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.outlined_login_img{
+
+  color: #fff;
+}
+.outlined_login{
+ font-family: "Source Sans Pro", sans-serif;
+}
