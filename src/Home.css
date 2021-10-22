@@ -3,6 +3,39 @@
   width: 100vw;
   height: 100vh;
 }
+.login_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #212529;
+  opacity: 60%;
+  height: 2.8rem;
+  width: 5rem;
+  position: absolute;
+  right: 6rem;
+  top: 1rem;
+  border-radius: 7px;
+}
+.login_Container_Details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 3rem;
+  position: absolute;
+
+  top: 1rem;
+  right: 6rem;
+}
+.outlined_login_img {
+  color: #fff;
+}
+.outlined_login {
+  color: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .login_Search_Container {
   width: 100%;
   height: 43.5rem;
@@ -82,13 +115,13 @@
 }
 .location_text {
   display: flex;
-    position: absolute;
-    justify-content: space-between;
-    width: 38rem;
-    height: 2rem;
-    z-index: 200;
-    top: 18rem;
-    left: 90px;
+  position: absolute;
+  justify-content: space-between;
+  width: 38rem;
+  height: 2rem;
+  z-index: 200;
+  top: 18rem;
+  left: 90px;
 }
 .location_text span {
   color: #fff;

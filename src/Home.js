@@ -5,6 +5,11 @@ let Home = () => {
       <div className="home_body">
         {/* <Navbar /> */}
         <div className="login_Search_Container">
+          <div className="login_Container"></div>
+          <div className="login_Container_Details">
+            <span className="outlined_login">Login</span>
+            <span class="material-icons outlined_login_img">login</span>
+          </div>
           <img src="https://cdn.boongg.com/Images%20-%20CDN/Home/background1.jpg" />
           <div className="login_Search_tag">
             <div className="boongg_img">
