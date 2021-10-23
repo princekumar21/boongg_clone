@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 let Home = () => {
     return (
       <div className="home_body">
-        {/* <Navbar /> */}
+        {/* <Navbar  /> */}
         <div className="login_Search_Container">
           <div className="login_Container"></div>
           <div className="login_Container_Details">
@@ -41,6 +41,47 @@ let Home = () => {
                 <span>18 Nov 2021 5:00 PM</span>
               </div>
               <div id="rent_now_Home">Rent Now</div>
+            </div>
+          </div>
+        </div>
+        <div className="choose_Text">
+          <h1>WHY CHOOSE US?</h1>
+          <h6>
+            We simplified bike rentals, so you can focus on what's important to
+            you.
+          </h6>
+        </div>
+        <div className="image_Text_Container">
+          <div className="image_Container">
+            <img
+              src="https://www.boongg.com/static/media/1d8(reworked).bbc6237e.png"
+              alt=""
+            />
+          </div>
+          <div className="text_Container">
+            <div className="text_img_Container">
+              <div>
+                <img
+                  src="https://cdn.boongg.com/Images%20-%20CDN/Home/helmet.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="text_img_Container">
+              <div>
+                <img
+                  src="https://cdn.boongg.com/Images%20-%20CDN/Home/zero.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="text_img_Container">
+              <div>
+                <img
+                  src="https://cdn.boongg.com/Images%20-%20CDN/Home/offer.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
